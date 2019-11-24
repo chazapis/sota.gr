@@ -325,7 +325,7 @@
     </main>
 
     <!-- jQuery first, then Bootstrap JS with Popper.js -->
-    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script>
 $(function () {
@@ -339,11 +339,11 @@ $(function () {
   $('a[href*="#"]:not([href="#carousel"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top - 72
-        }, 1000);
+        }, 500);
         return false;
       }
     }
