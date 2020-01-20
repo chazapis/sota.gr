@@ -7,6 +7,10 @@ body {
   color: #5a5a5a;
 }
 
+code {
+  color: rgb(242, 2, 56);
+}
+
 nav.bg-dark {
   background-color: rgb(41, 43, 44)!important;
 }
@@ -47,6 +51,7 @@ footer p.float-left {
 .carousel {
   margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 2rem;
@@ -58,6 +63,7 @@ footer p.float-left {
   height: 32rem;
   background-color: #5a5a5a;
 }
+
 .carousel-item > img {
   position: absolute;
   top: 0;
